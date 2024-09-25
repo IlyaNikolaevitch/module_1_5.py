@@ -1,7 +1,10 @@
-my_string = input("Первый день недели: ")
-print(len(my_string))
-print(my_string.upper())
-print(my_string.lower())
-print(my_string .replace(" ", ""))
-print(my_string[0])
-print(my_string[-1])
+immutable_var = 3, 5, 7, 'Hello', True
+print(immutable_var, ['Комментарий: кортеж в () неизменяемый'])
+#immutable_var [0] = 6
+#print(immutable_var)
+mutable_list = [3, 5, 7, 'Hello', True]
+print(mutable_list)
+mutable_list[0] =  100
+print(mutable_list)
+mutable_list[-1] = 'Goodbye'
+print(mutable_list)
